@@ -1,0 +1,13 @@
+pandas
+numpy
+setuptools
+kagglehub
+torch
+torchvision
+requests
+matplotlib
+albumentations
+torch
+opencv-python-headless
+tensorboard
+dvc

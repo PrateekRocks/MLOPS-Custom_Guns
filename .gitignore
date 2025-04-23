@@ -1,0 +1,9 @@
+venv/
+artifacts/models
+artifacts/raw
+CUSTOM_GUN_DETECTION.egg-info
+build/
+.dvc/
+
+*.logs
+.dvcignore
