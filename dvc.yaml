@@ -3,13 +3,13 @@ stages:
     cmd: python src/data_ingestion.py
     deps:
         - src/data_ingestion.py
-    outs:
-        - artifacts/raw/
+    # outs:
+    #     - artifacts/raw/
 
   model_training:
       cmd: python src/model_training.py
       deps:
           - src/model_training.py
           - artifacts/raw/
-      outs:
-          - artifacts/models/fasterrcnn.pth
+      # outs:
+      #     - artifacts/models/fasterrcnn.pth
